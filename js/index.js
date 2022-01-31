@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||小肖||祝|小陈|2022|新春快乐|万事如意|虎年吉祥|');
+      S.UI.simulate('|#countdown 3||祝|邵叶|2022|早日暴富|学业有成|虎年行大运|请欣赏|烟花表演|');
     }
 
     S.Drawing.loop(function () {
